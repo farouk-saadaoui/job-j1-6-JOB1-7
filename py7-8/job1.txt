@@ -1,0 +1,16 @@
+def draw_rectangle(widht,height):
+    if widht or height < 0 :
+        print( 'erreur')
+        return 
+
+    print("|",end='')
+    for i in range(widht):
+        print("-",end="")
+    print("|")
+    for j in range(height-2):
+        print("|"+" " * widht + "|")
+    print("|",end='')
+    for i in range(widht):
+        print("-",end="")
+    print("|")
+draw_rectangle(-1,4)

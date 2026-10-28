@@ -1,0 +1,8 @@
+def alpha():
+    alpha='abcdefghijklmnopqrstuvwxyz'*10
+    c=1
+    for j in range(len(alpha)) : 
+        while c < len(alpha) :
+                print(alpha[:c])
+                c+=1
+print(alpha())

@@ -1,0 +1,41 @@
+def triangle():
+    l2=int(input("indiquer une longueur l3 "))
+    l3=int(input("indiquer une longueur L2 "))
+    l1=int(input("indiquer une longueur l1 "))
+    plus_grand=l1
+    if l2 >= plus_grand :
+        plus_grand=l2
+    if l3 >= plus_grand :
+        plus_grand=l3
+    if plus_grand == l1 :
+        if plus_grand < l2 + l3 :
+            print(plus_grand)
+            if plus_grand == l2 == l3 :
+                print('est equilateral')
+            elif plus_grand == l2 or l2 == l3 or plus_grand == l3:
+                print('est isocele')
+            elif plus_grand ** 2 == l2**2 + l3**2 :
+                print('est rectangle')
+            else :
+                print('Quelconque')
+    elif plus_grand == l2 :
+            if plus_grand < l1 + l3 :
+                if plus_grand == l1 == l3 :
+                    print('est equilateral')
+                if plus_grand == l1 or l1 == l3 or plus_grand == l3:
+                    print('est isocele')
+                if plus_grand ** 2 == l1**2 + l3**2:
+                    print('est rectangle')
+                else :
+                    print('Quelconque')
+    elif plus_grand == l3 :
+            if plus_grand < l2 + l1 :
+                if plus_grand == l2 == l1 :
+                    print('est equilateral')
+                if plus_grand == l1 or l2 == l1 or plus_grand == l1:
+                    print('est isocele')
+                if plus_grand ** 2 == l2**2 + l1**2: 
+                    print('est rectangle')
+                else :
+                    print('Quelconque')
+print(triangle())

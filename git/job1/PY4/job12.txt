@@ -1,0 +1,3 @@
+def sp(str):
+    return str[::-1]
+print(sp('salut'))

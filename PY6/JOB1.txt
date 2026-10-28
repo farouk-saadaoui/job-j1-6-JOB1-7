@@ -1,0 +1,4 @@
+def frt():
+    lst=["pomme","cerise","orange"]
+    return lst
+print(frt())

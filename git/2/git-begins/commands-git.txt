@@ -1,0 +1,2 @@
+git clone "addresse github " \n les 3 commande de push sont :\ngit .add fichier ,git commit -m "message commit " , git push "repo local " "repo git"  git clone "addresse github " \n les 3 commande de push sont :\ngit .add fichier ,git commit -m "message commit " , git push "repo local " "repo git" 
+git pull "origin" "branch"

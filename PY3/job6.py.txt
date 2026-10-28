@@ -1,0 +1,7 @@
+def paire():
+    nb=int(input('renseigner un nombre'))
+    if nb % 2 == 0 :
+        print(f'Le nombre {nb} est pair')
+    else :
+        print (f'Le nombre {nb} est impaire')
+print(paire())
